@@ -1,0 +1,304 @@
+.hader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    
+}
+.home{
+    
+    height: 95vh;
+}
+.mv{
+    height: 100vh;
+   
+}
+
+.button button:hover{
+background-color: aqua;
+}
+
+.button button{
+    height: 40px;
+    width: 28vh;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.img{
+    position: relative;
+}
+.img img{
+    width: 100%;
+    height: 90vh;
+   
+  
+
+
+    
+}
+.heding{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    margin-left: 25%;
+    z-index: 99;
+    
+
+    
+
+}
+.heding h1,h2,h3{
+    color: #fff;
+
+}
+.heding h1{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.heding h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.heding h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.heding button{
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.heding button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.login-form{
+    height: 320px;
+    width: 300px;
+    background-color: rgba(25, 25, 25, 0.2);
+    backdrop-filter: blur(30px);
+    margin-top: 50px;
+    margin-left: 40%;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    
+}
+   
+    
+
+.login input{
+    width: 150px;
+}
+.login-form h1{
+    padding-top: 25px;
+
+}
+.login1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+.btn,.btn1 {
+    padding-top: 15px;
+    
+}
+.btn button{
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 10px;
+    
+    
+}
+.sign{
+    height: 400px;
+    width: 320px;
+    background-color: rgba(25, 25, 25, 0.2);
+   backdrop-filter: blur(30px);
+    margin-left: 40%;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+button:active{
+    transform: scale(0.8);
+}
+
+
+
+.sign  h1{
+    padding-top: 15px;
+}
+.sign button{
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    background-color: pink;
+    border-radius: 5px
+    
+    
+
+}
+.signup{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.img2{
+    height: 100vh;
+    width: 100%;
+   
+}
+.overlay{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5)
+   
+}
+.buy{
+    width: 100%;
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 9999;
+
+
+
+}
+.logo2{
+    padding-left: 30px;
+    
+    
+}
+.logo2 img{
+    background-color: #fff;
+    
+    
+}
+.buybtn button{
+    height: 60px;
+    width: 120px;
+    font-size: 20px;
+    color: red;
+    background-color: aliceblue;
+    border-radius: 10px;
+    z-index:99999 ;
+    margin-right: 20px;
+    
+    
+}
+.buybtn button:hover{
+    background-color: rgb(127, 255, 202);
+   
+    
+}
+
+.part{
+    position: absolute;
+    text-align: center;
+    padding-left:25% ;
+    padding-top: 15vh;
+    color: #fff;
+    z-index: 999;
+}
+.part h1{
+    font-size: 70px;
+}
+.part h4{
+    font-size: 30px;
+}
+.part h5{
+    font-size: 20px;
+}
+h1,h2,h3,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-wraper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.card{
+    width: 260px;
+    height: 390px;
+
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.input input {
+    padding: 20px;
+padding-right: 300px;
+margin-top: 20px;
+border-radius: 5px;
+
+
+
+    
+}
+.input button:hover{
+    background-color: aquamarine;
+}
+.input button{
+height: 57px;
+width: 100px;
+background-color: rgb(0, 204, 255);
+margin-left: 5px;
+border-radius: 5px;
+border: none;
+font-size: 17px;
+
+
+}
+.block{
+    /* background-color: rgb(9, 136, 136); */
+    /* height: 100vh;
+    width: 100%; */
+    color: #fff;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec2{
+    padding-top: 40px;
+}
+
+
+.model{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    
+    z-index: 999;
+    color: #fff;
+}
